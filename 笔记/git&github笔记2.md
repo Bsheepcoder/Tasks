@@ -1,0 +1,64 @@
+# 阶段二 git/github学习笔记
+
+``` c
+/*
+在我配置git与GitHub的过程中主要遇到以下问题：
+    如何将git本地仓库与github建立联系
+    如何将本地文件push到GitHub的tasks库内
+    如何写readme索引
+*/
+```
+
+## 1.git的常用命令
+
+``` c
+
+--设置用户名和邮箱
+//git config --global user.name "yourname"
+//git config --global user.name "邮箱"
+--生成密钥(SSH key)（生成的key通常在C:\Users\Husile\.ssh）
+//ssh-keygen -t rsa -C "your_email@youremail.com"
+--检查密钥添加是否成功
+//ssh -T git@github.com
+--创建本地仓库 
+//cd d:   进入D盘
+//mkdir folder  创建一个folder文件夹
+//cd folder   进入folder文件夹
+//git init  将该文件夹设置为版本库
+--连接到远程仓库 (两种有无https都可)
+//git remote add origin git@github.com:yourName/repositoryname.git
+//git remote add origin https://github.com/yourName/repositoryname.git
+--如果要移除远程仓库
+//git remote rm origin
+--从远程仓库pull文件
+//git pull origin master
+--从本地仓库push文件
+//git push origin master
+--将本地文件同步到远程仓库的步骤
+//git add
+    //git commit -m "loading first time"
+    //git remote add origin https://github.com/yourName/repositoryname.git
+    //git push -u origin master
+    另，在修改远程仓库时用得上//git config --global --unset http.proxy
+    ...
+```
+
+==以上命令行用于解决    git和github本地仓库连接远程仓库的问题== 
+
+## 2.Readme索引学习心得
+
+*超链接语法的妙用*
+
+``` c
+//目录
+//[阶段一markdownu学习笔记](链接对应github文件的网址)
+//[阶段二git/github学习笔记](链接对应github文件的网址)
+//...
+```
+
+任何文本都可做成上面的链接，最后达到一个目录的效果
+
+### 3.git/github发展史（正在看。。）
+
+
+
