@@ -1,21 +1,27 @@
 #include<stdio.h>
 #include <time.h>
-
 #define N 30  //定义一个时间以s为单位 
 
-struct  tm  * GetTime( time_t  *t)
+/*
+  程序名：算数游戏 
+  时间：2020.12.24 
+  制作人：Bsheepcoder 
+  内容： 用户需在规定时间内尽可能多的做题，
+         题目内容是完成两个10以内数相加和相减 。           
+*/ 
+struct  tm  * GetTime( time_t  *t)    //声明一个获取时间的结构指针 
 {
 	struct  tm  * loctm ;
-	time  (t); //获取Unix时间戳。
-	loctm = localtime  (t);//转为时间结构。
+	time  (t);                //获取Unix时间戳。
+	loctm = localtime  (t);   //转为时间结构。
 }
 
-void NewNumber(int *p1, int *p2);
-int Sum(int a , int b);   //两数和 
-int Minus(int a , int b);   //两数差的绝对值
-void Judge(int sum,int a,int minus,int b,int *k);
-int TimeCnt( struct  tm  * localtime,struct  tm   begintime); //传入
-int InTime(struct  tm  * lt1 ,time_t  t , int *pn, int *pk); 
+void NewNumber(int *p1, int *p2);  //生成两个10以内随机数 
+int Sum(int a , int b);            //两数和 
+int Minus(int a , int b);          //两数差的绝对值
+void Judge(int sum,int a,int minus,int b,int *k);   //判断用户输入的结果是否正确 
+int TimeCnt( struct  tm  * localtime,struct  tm   begintime); //返回剩余答题时间 
+int InTime(struct  tm  * lt1 ,time_t  t , int *pn, int *pk);  //答题时间内的操作，输入两个数， 
 int OutTime()
 
 int main()
@@ -29,21 +35,21 @@ int main()
      	time_t  T;         //定义一个时间变量 
         struct  tm  * lt1;//定义一个时间结构体指针 
         struct  tm  begin;
-        int time;  //定义一个时间差 
+        int time;          //定义一个时间差 
      	lt1 =  GetTime(&T);    //指针指向此时时间 
-     	begin = * lt1;  //记录开始的时间指针 
+     	begin = * lt1;     //记录开始的时间指针 
 		while(1)
 		{
-			time =  TimeCnt(lt1,begin);   //传入开始时间 
+			time =  TimeCnt(lt1,begin);   //传入开始时间 ，返回剩余时间 
 			printf("|——————>> 倒计时 %ds <<——————|\n",time);
 			if(time >= 0)
 			{
-                InTime(lt1,T,&cnt,&k);
+                InTime(lt1,T,&cnt,&k);    
 			}else{
 			    printf("|———————停！时间到了！—————|\n");
 			    printf("|——————共%d题， 你答对%d题————|\n",cnt,k);
 			    printf("|———————按任意键退出——————|\n",N);
-			    getchar();
+			    getchar();           //防止程序闪退 
 				break; 
 			}
 		} 
