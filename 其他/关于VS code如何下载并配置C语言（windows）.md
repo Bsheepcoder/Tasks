@@ -4,7 +4,7 @@
 
 **1.**[**VS code官网**](https://code.visualstudio.com/) 
 
-![rq9RVe.png](https://imgchr.com/i/rq9RVe)
+[![rq9RVe.png](https://s3.ax1x.com/2020/12/29/rq9RVe.png)](https://imgchr.com/i/rq9RVe)
 
 **2**.点击后无需操作，等待下载弹窗
 
