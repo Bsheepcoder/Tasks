@@ -28,7 +28,7 @@
 
 ### 0x03  下载及安装MinGW
 
-​    [**MinGW官网**]([**https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/**](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/))    进入后一直翻，找到下图的位置
+​    [**MinGW官网**]([**https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/**](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/))   进入后一直翻，找到下图的位置
 
 [![rq96KK.jpg](https://s3.ax1x.com/2020/12/29/rq96KK.jpg)](https://imgchr.com/i/rq96KK)
 
@@ -196,6 +196,6 @@ int main()
 #include<time.h> 
 ```
 
-例如在使用 time.h 时，需先写出stdlib.h
+例如在使用 **time.h** 时，需先写出**stdlib.h**
 
 2.另外对编译的语法也有不同的要求，修改语法可以排除一些编译报错。
