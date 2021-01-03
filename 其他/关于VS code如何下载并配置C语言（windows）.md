@@ -1,5 +1,7 @@
 # **关于VS code如何下载并配置C语言**（windows）
 
+==VPN才能看图==
+
 ### 0x01  下载VS code
 
 **1.**[**VS code官网**](https://code.visualstudio.com/) 
