@@ -5,6 +5,7 @@
 **[YZKGame引擎、VS 2012下载地址](http://rp.youzack.com/index.html)**
 
 - 资源内还包含有各种素材
+- 这是一个可以用C语言编程的简单游戏引擎。
 
 ## 0x01 什么是像素
 
