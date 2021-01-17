@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://music.163.com/song?id=30496871&userid=289353777">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first html</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
+        }
+        </script>
+    <style>
+        *{
+        padding: 0;
+        margin: 0;
+         }
+        a:link{color:red;}
+        a:visited{color:rgb(218, 200, 212);}
+        .header {font-size: 25px;background-color: rgb(157, 164, 221);padding:5px;}
+        *{box-sizing:border-box; }
+        .topnav{overflow: hidden;background-color: rgb(30, 47,n 49);text-align:center;}
+        .topnav a{font-family: sans-serif;font-weight: bolder;float: center;;color:#77d1e7;
+            text-align:center;padding:10px 23px;text-decoration:none;}
+        .topnav a:hover{background-color: rgb(28, 48, 48);color: rgb(221, 247, 243);}
+        .column1{float: left;width:20%;text-align: center;min-height: 500px;float: left;margin-left:auto;}
+        .column3{float: left;width:20%;text-align: center;min-height: 500px;float: left;margin-left:auto;}
+        .column{float: left;width:40%;text-align: center;min-height: 1000px;float:right;margin-left:auto;}
+        
+        .row:after{content: "";display: table;clear:both;}
+        
+       
+        .footer{background-color: rgb(221, 240, 241);padding: 5px;text-align: center;}
+        body{background: url(https://s3.ax1x.com/2020/11/21/D1Fzgx.jpg);
+              background-size: cover;
+              background-color: rgb(238, 229, 229);
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              min-width: 1000px;
+              z-index:-10;
+              zoom: 1;
+              background-repeat: repeat;
+              background-position: center 0;
+            }
+            @media screen and (max-width:600px) {
+                 .column{width:100%;}
+                .column{
+                    background-color: #fff;
+                    filter: Alpha(opacity=50);
+                    *zoom:1;/* 激活IE6、7的haslayout属性，让它读懂Alpha */
+                }
+                .column p{
+                    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+                }
+            }
+        .center{text-align:center;}
+        div {
+          background-color: rgba(2, 29, 27, 0.5);
+          border: 4px solid rgb(49, 4, 43);
+          padding: 15px;
+          margin: 0px;
+          /* opacity: 0.6;    这里设置文本框透明度 */
+          
+          } 
+        h1{color: rgb(165, 202, 0);text-align: center; font-size: 70px; }
+        h2{color: rgb(38, 197, 86);text-align: center; font-family:sans-serif;float:center;font-size:40px;}
+         p{float:center;font-size: px;color: rgb(255, 255, 255);font-weight: bolder;}
+    </style>
+    <!-- <script>
+        $(document).ready(function(){
+          $("p").click(function(){
+            $(this).hide();
+          });
+          $("h2").click(function(){
+            $(this).hide();
+          });
+        });
+        </script> -->
+</head>
+<body>
+    <!--     
+    <script>
+        var length = 10;
+        window.alert("学代码的路上没有尽头");
+    </script>
+     -->
+    <!-- <div class="header"> -->
+        <h1>
+          编程学习网页合集
+        </h1>
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=481853442&auto=1&height=66"></iframe>
+        <div class="topnav">
+            <a href="https://www.runoob.com/cprogramming/c-tutorial.html"target="_black">C</a>
+            <a href="https://www.runoob.com/cplusplus/cpp-tutorial.html"target="_black">C ++</a>
+            <a href="https://www.runoob.com/java/java-tutorial.html"target="_black">java</a>
+            <a href="https://www.runoob.com/python/python-tutorial.html"target="_black">python</a>
+            <a href="https://www.runoob.com/csharp/csharp-tutorial.html"target="_black">C#</a>
+            <a href="https://www.runoob.com/go/go-tutorial.html"target="_black">go</a>
+            <a href="https://www.runoob.com/js/js-tutorial.html"target="_black">JavaScript</a>
+            <a href="https://quantum-hub.baidu.com/#/"target="_black">量易伏</a>
+        </div>
+        <div class="column1">
+            <h2 >版本更新<br/>
+                <!-- <a href="https://github.com/Bsheepcoder/Tasks"target="_black">MyGit</a> -->
+                <!-- <a href=链接地址 target="_black">连接标签</a> -->
+                <br/>
+            </h2>
+            <p>1.0版本(2020.11.21)</p>
+        </div>
+        <div class="column">
+            <h2 >精选内容<br/>
+              
+                <!-- <a href=链接地址 target="_black">连接标签</a> -->
+                <br/>
+            </h2>
+            <p>  <a href="https://www.cnblogs.com/gaopeng527/p/4598547.html"target="_black">《编程之美》中部分算法的代码实现</a>
+            <br/></p>
+        </div>
+        <div class="column">
+            <h2> 常用工具下载 
+                <!-- <a href="https://github.com/Bsheepcoder/Tasks"target="_black">MyGit</a> -->
+                <!-- <a href=链接地址 target="_black">连接标签</a> -->
+                <br/>
+            </h2><br/>
+            <p> <a href="http://rp.youzack.com/index.html"target="_black">基于C、java语言的小游戏制作的课程下载（包括游戏引擎、VS等）</a></p><br/>
+            <p> <a href="http://rp.youzack.com/index.html"target="_black">基于C、java语言的小游戏制作的课程下载（包括游戏引擎、VS等）</a></p>
+        </div>
+        
+        <div class="column3">
+            <h2 >日志<br/>
+                <!-- <a href="https://github.com/Bsheepcoder/Tasks"target="_black">MyGit</a> -->
+                <!-- <a href=链接地址 target="_black">连接标签</a> -->
+                <br/>
+            </h2>
+            <p>之后会把自己的日志链接放在这里</p>
+        </div>
+        <!-- <p><button type="button" onclick="myFunction()">这是一个解压的按钮</button></p> -->
+</body>
+</html>

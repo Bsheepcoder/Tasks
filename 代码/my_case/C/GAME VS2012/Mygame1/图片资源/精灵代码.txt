@@ -1,0 +1,255 @@
+import java.awt.Color;
+
+import com.rupeng.game.GameCore;
+
+
+public class Main4 implements Runnable
+{
+
+	@Override
+	public void run()
+	{
+		/*
+		GameCore.createText(0, "如鹏网");
+		GameCore.createText(1, "Rupeng.com");
+		
+		
+		GameCore.setTextPosition(1, 100, 300);
+		GameCore.setTextPosition(0, 300, 100);
+		//GameCore.alert("fsafdsa");
+		GameCore.setText(1, "www.rupeng.com");
+		GameCore.setTextColor(1, Color.green);
+		GameCore.setTextColor(0, Color.RED);
+		
+		
+		GameCore.createText(99, "在校不迷茫，毕业既辉煌");
+		GameCore.setTextPosition(99, 400, 400);
+		GameCore.setTextFontSize(99, 80);
+		GameCore.setTextColor(99, Color.BLUE);
+		
+		GameCore.alert("藏起来");
+		GameCore.hideText(99);
+		GameCore.alert("显示出来起来");
+		GameCore.showText(99);
+		*/
+		
+		/*
+		GameCore.setGameSize(554, 326);
+		GameCore.loadBgView("mariobg.jpg");
+		GameCore.createText(0, "超级玛丽");
+		GameCore.setTextPosition(0, 100, 50);
+		GameCore.setTextColor(0, Color.YELLOW);
+		GameCore.setTextFontSize(0, 60);
+		
+		GameCore.createText(1, "1-单人游戏");
+		GameCore.setTextPosition(1, 100, 120);
+		
+		GameCore.createText(2, "2-多人游戏");
+		GameCore.setTextPosition(2, 100, 170);
+		
+		GameCore.createText(3, "3-游戏演示");
+		GameCore.setTextPosition(3, 100,220);*/
+		
+		/*
+		GameCore.setGameSize(554, 326);
+		GameCore.loadBgView("mariobg.jpg");
+		
+		int titleNum=0;
+		GameCore.createText(titleNum, "超级玛丽");
+		GameCore.setTextPosition(titleNum, 100, 50);
+		GameCore.setTextColor(titleNum, Color.YELLOW);
+		GameCore.setTextFontSize(titleNum, 60);
+		
+		
+		int singleNum=1;
+		GameCore.createText(singleNum, "1-单人游戏");
+		GameCore.setTextPosition(singleNum, 100, 120);
+		GameCore.setTextColor(singleNum, Color.red);
+		
+		int multiNum=2;
+		GameCore.createText(multiNum, "2-多人游戏");
+		GameCore.setTextPosition(multiNum, 100, 170);
+		
+		int demoNum=3;
+		GameCore.createText(demoNum, "3-游戏演示");
+		GameCore.setTextPosition(demoNum, 100,220);
+		*/
+		
+		/*
+		GameCore.setGameSize(554, 326);
+		GameCore.loadBgView("mariobg.jpg");
+		
+		int titleNum=0;
+		GameCore.createText(titleNum, "超级玛丽");
+		GameCore.setTextPosition(titleNum, 100, 50);
+		GameCore.setTextColor(titleNum, Color.YELLOW);
+		GameCore.setTextFontSize(titleNum, 60);
+		
+		int selectY=170;
+		
+		int singleNum=1;
+		GameCore.createText(singleNum, "1-单人游戏");
+		GameCore.setTextPosition(singleNum, 100, selectY);
+		GameCore.setTextColor(singleNum, Color.red);
+		
+		selectY+=50;
+		
+		int multiNum=2;
+		GameCore.createText(multiNum, "2-多人游戏");
+		GameCore.setTextPosition(multiNum, 100, selectY);
+		
+		selectY+=50;
+		
+		int demoNum=3;
+		GameCore.createText(demoNum, "3-游戏演示");
+		GameCore.setTextPosition(demoNum, 100,selectY);*/
+		
+		/*
+		GameCore.createImage(0, "slice158.png");
+		GameCore.setImagePosition(0, 100, 100);
+		
+		GameCore.createImage(1);
+		GameCore.setImageSource(1, "slice159.png");
+		GameCore.setImagePosition(1, 200, 100);
+		*/
+		/*
+		int photoNum=0;
+		int nameNum=0;
+		int ageNum=1;
+		//int hobbyNum=2;
+		
+		GameCore.createImage(photoNum);
+		GameCore.setImagePosition(photoNum, 100, 100);
+		
+		GameCore.createText(nameNum, "姓名：");
+		GameCore.setTextPosition(nameNum, 100, 250);
+		
+		GameCore.createText(ageNum, "年龄：");
+		GameCore.setTextPosition(ageNum, 100, 300);
+		
+		GameCore.alert("赵丽颖");
+		GameCore.setImageSource(photoNum, "zhaoliying.jpg");
+		GameCore.setText(nameNum, "赵丽颖");
+		GameCore.setText(ageNum, "22岁");
+		
+		GameCore.alert("林志玲");
+		GameCore.setImageSource(photoNum, "linzhiling.jpg");
+		GameCore.setText(nameNum, "林志玲");
+		GameCore.setText(ageNum, "32岁");
+		*/
+		
+		/*
+		int marioNum=0;
+		GameCore.createSprite(marioNum, "mario");
+		GameCore.setSpritePosition(marioNum, 100, 100);
+		//GameCore.playSound(soundName, repeat);
+		GameCore.playSpriteAnimate(marioNum, "walk", true);*/
+		/*
+		GameCore.alert("摔");
+		GameCore.playSpriteAnimate(marioNum, "shuaidao", true);
+		GameCore.alert("发呆");
+		GameCore.playSpriteAnimate(marioNum, "idle", true);*/
+		/*
+		int girlNum=1;
+		GameCore.createSprite(girlNum, "girl");
+		GameCore.setSpritePosition(girlNum, 200, 100);
+		GameCore.playSpriteAnimate(girlNum, "cry", true);*/
+		
+		/*
+		int marioNum=0;
+		GameCore.createSprite(marioNum, "mario");
+		GameCore.setSpritePosition(marioNum, 100, 100);
+		
+		GameCore.playSpriteAnimate(marioNum, "walk", true);
+		GameCore.setSpriteFlipX(marioNum, true);
+		
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 105, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 110, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 115, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 120, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 125, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 130, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 135, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 140, 100);
+		
+		GameCore.pause(200);
+		GameCore.setSpritePosition(marioNum, 145, 100);
+		*/
+		
+		int marioNum=0;
+		int marioY=200;
+		int marioX=300;
+		GameCore.createSprite(marioNum, "mario");
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.playSpriteAnimate(marioNum, "walk", true);
+		GameCore.setSpriteFlipX(marioNum, true);		
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		GameCore.pause(200);
+		marioX+=5;
+		GameCore.setSpritePosition(marioNum, marioX, marioY);
+		
+		/*
+		GameCore.alert("fsadfas");
+		//GameCore.setSpriteFlipX(marioNum, true);
+		GameCore.setSpriteFlipY(marioNum, true);*/
+		
+		
+		
+		GameCore.pause(1000000);
+	}
+
+	public static void main(String[] args)
+	{
+		GameCore.start(new Main4());
+	}
+
+}
