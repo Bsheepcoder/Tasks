@@ -1,5 +1,5 @@
  :point_right:说在前面
- - 一直以来没有没有花时间写感受，是因为很多时间还是想用在如何去解决各种问题上。我在转到这个专业前其实并没有多了解编程，可以用一无所知来形容。在短短的一个多学期的时间里发现自己能有较大的改变，很感激:heart:。geek组的任务可以说很系统，很多东西点到为止，剩下的交给个人兴趣去挖掘这样很好，提供了很多资源也非常nice。不管能不能进入geek组，我都觉得这些时光非常有意义。
+ - 一直以来没有花时间写感受，是因为很多时间还是想用在如何去解决各种问题上。我在转到这个专业前其实并没有多了解编程，可以用一无所知来形容。在短短的一个多学期的时间里发现自己能有较大的改变，很感激:heart:。geek组的任务可以说很系统，很多东西点到为止，剩下的交给个人兴趣去挖掘这样很好，提供了很多资源也非常nice。不管能不能进入geek组，我都觉得这些时光非常有意义。
 
 # Tasks
 ## [阶段一 markdown学习笔记](https://github.com/Bsheepcoder/Tasks/blob/main/%E7%AC%94%E8%AE%B0/1.markdown%E7%AC%94%E8%AE%B0.md)
@@ -30,7 +30,7 @@
 :point_right:心得
 - 这部分学习很去全面了，可能没时间加深记忆，但是全面系统的好处是能提前解答自己的很多疑问，或者理解上的空白
 - 在进行第二次学习的时候就可以更专注语法和算法的结合了，就是更容易将思维逻辑转换成代码
-- 学习资源是mooc，python123很棒
+- 学习资源是mooc，并且配套的python123网站很棒
 ## [阶段六 Python网络爬虫与信息提取笔记](https://github.com/Bsheepcoder/Tasks/blob/main/%E7%AC%94%E8%AE%B0/5.Python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8F%90%E5%8F%96%E7%AC%94%E8%AE%B0.md) 
 [中国最好大学排名爬取](https://github.com/Bsheepcoder/Tasks/blob/main/%E4%BB%A3%E7%A0%81/python/spider.py)
 - :point_right:心得
