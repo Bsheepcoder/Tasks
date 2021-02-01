@@ -32,6 +32,7 @@
 - 这部分学习很去全面了，可能没时间加深记忆，但是全面系统的好处是能提前解答自己的很多疑问，或者理解上的空白
 - 在进行第二次学习的时候就可以更专注语法和算法的结合了，就是更容易将思维逻辑转换成代码
 - 学习资源是mooc，并且配套的python123网站很棒
+- 笔记很长，建议下载下来看
 ## [阶段六 Python网络爬虫与信息提取笔记](https://github.com/Bsheepcoder/Tasks/blob/main/%E7%AC%94%E8%AE%B0/5.Python%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8F%90%E5%8F%96%E7%AC%94%E8%AE%B0.md) 
 [中国最好大学排名爬取](https://github.com/Bsheepcoder/Tasks/blob/main/%E4%BB%A3%E7%A0%81/python/spider.py)
 - :point_right:心得
