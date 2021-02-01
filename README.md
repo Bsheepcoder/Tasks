@@ -25,7 +25,7 @@
 ## [阶段四 geek网页复现](https://bsheepcoder.github.io/)
 :point_right:心得
 - 在这个任务完成之前，我结合之前学习的教训，加上放假之后有较充足的时间将web的知识系统的过了一遍，将笔记更新了很多
-- 这里除了完成任务，还有因为有某人要过生日找了一个web做的礼物，也分享一下很棒https://github.com/AJLoveChina/birthday 能用所学是比较有意思的。
+- 这里除了完成任务，还找了一个web做的礼物，也分享一下，很棒https://github.com/AJLoveChina/birthday 能用所学是比较有意思的。
 ## [阶段五 Python语言程序设计笔记](https://github.com/Bsheepcoder/Tasks/blob/main/%E7%AC%94%E8%AE%B0/4.Python%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0.md) 
 :point_right:心得
 - 这部分学习很去全面了，可能没时间加深记忆，但是全面系统的好处是能提前解答自己的很多疑问，或者理解上的空白
